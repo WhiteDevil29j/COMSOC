@@ -122,6 +122,11 @@ nav img:hover{
 .textbox span{
     font-size: 20px;
     font-weight: lighter;
+    color: gold;
+}
+
+.textbox p{
+    color: gold;
 }
 
 .textbox img{
@@ -245,6 +250,7 @@ hr{
 
 .photocol p{
     text-align: center;
+    color: gold;
 }
 
 .row{
