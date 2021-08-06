@@ -13,7 +13,7 @@ nav{
     padding: 0px;
     justify-content: space-between;
     align-items: center;
-    background: #151a2c;
+    background: linear-gradient(to right, #434343,#000000);
 }
 
 h{
@@ -24,11 +24,11 @@ h{
 }
 
 nav .logo{
-    background: #e84a43;
-    height: 50px;
-    line-height: 50px;
-    width: 200px;
-    text-align: center;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+  height: 50px;
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
 }
 
 nav .logo a{
@@ -176,6 +176,13 @@ hr{
     margin-bottom: 10px;
 }
 
+.section1{
+  background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://i.postimg.cc/4NSjJPgX/photo-1579548122080-c35fd6820ecb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .section2{
     background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://i.postimg.cc/bvwHGHgv/High-resolution-wallpaper-background-ID-77700327096.jpg');
     background-repeat: no-repeat;
@@ -191,7 +198,7 @@ hr{
 }
 
 .photo h1{
-    color: white;
+    color: #e84a43;
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
 }
@@ -216,6 +223,10 @@ hr{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.popular .box-container .box .head{
+  background: linear-gradient(to right, #d53369, #cbad6d);
 }
 
 .popular .box-container .box{

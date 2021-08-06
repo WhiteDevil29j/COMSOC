@@ -22,7 +22,7 @@ nav{
     padding: 0px;
     justify-content: space-between;
     align-items: center;
-    background: #151a2c;
+    background: linear-gradient(to right, #434343,#000000);
 }
 
 h{
@@ -33,7 +33,7 @@ h{
 }
 
 nav .logo{
-    background: #e84a43;
+    background: linear-gradient(to right, #ff512f, #dd2476);;
     height: 50px;
     line-height: 50px;
     width: 200px;
@@ -236,6 +236,13 @@ hr{
     padding-bottom: 40px;
 }
 
+.photo ul li{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    font-family:  'Poppins', sans-serif;
+}
+
 .section2{
     background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
     background-repeat: no-repeat;
@@ -251,7 +258,7 @@ hr{
 }
 
 .photo h1{
-    color: white;
+    color: #e84a43;
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
 }
@@ -279,7 +286,7 @@ hr{
 }
 
 .popular .box-container .box{
-  background: black;
+    background: linear-gradient(to right, #c33764, #1d2671);
   width: 300px;
   padding: 0px;
   margin: 30px;
@@ -296,7 +303,7 @@ hr{
 .popular .box-container .box h3{
   color: var(--orange);
   font-size:25px;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: .15rem;
   color: white;
 }
@@ -304,7 +311,7 @@ hr{
 .popular .box-container .box p{
   color: gold;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 550;
 }
 
 .popular .box-container .box .price{
@@ -325,6 +332,10 @@ hr{
 
     .navigation{
         flex-direction: column;
+    }
+
+    .photo ul li{
+        font-size: 28px;
     }
 }
 
