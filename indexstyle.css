@@ -108,7 +108,7 @@ nav img:hover{
     width: 90%;
     color: white;
     position: absolute;
-    top: 55%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -117,6 +117,11 @@ nav img:hover{
     font-family: 'Titillium Web', sans-serif;
     font-weight: bolder;
     font-size: 80px;
+}
+
+.textbox span{
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 .textbox img{
