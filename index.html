@@ -1,0 +1,139 @@
+<html id="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Titillium+Web:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+        <link rel="shortcut icon" type="image/jpg" href="images/logo.jpg">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <div class="logo"><a href="index.html"><h>COMSOC</h></a></div>
+                <i class="fa fa-eercast" onclick="showMenu()"></i>
+                <div class="navlinks" id="NavLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#prep">Presidents</a></li>
+                        <li><a href="#tem">Team</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="textbox">
+                <h1>The Commerce Society</h1>
+                <p>Ryan International School, Sep. 2021</p>
+            </div>
+        </section>
+
+<!------Javascript for Toggle Menu------->
+
+        <script>
+            var NavLinks = document.getElementById("NavLinks")
+            function showMenu(){
+                NavLinks.style.left = "0"
+            }
+
+            function hideMenu(){
+                NavLinks.style.left = "-200px"
+            }
+        </script>
+
+<!----Photos--->
+
+<section class="section2" id="prep">
+    <div class="photo">
+        <h1>Presidents</h1>
+        <hr>
+        <p>Pround to lead the Project.</p>
+        
+
+        <div class="row">
+            <div class="photocol">
+                <img src="https://i.postimg.cc/sfMgF8Hp/som.png">
+                <h1>Somaksh Khanna</h1>
+            </div>
+
+            <div class="photocol">
+                <img src="https://i.postimg.cc/y8H1ZN1P/unknown.png">
+                <h1>Devakshi Jaggi</h1>
+            </div>
+
+            <div class="photocol">
+                <img src="https://i.postimg.cc/d0QJ5STZ/aa.png">
+                <h1>Aashita Chopra</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="section3" id="tem">
+        <div class="photo">
+            <h1>Team</h1>
+            <hr>
+            <p>Proud to help in this Project.</p>
+
+            <div class="row">
+                <div class="photocol">
+                    <img src="https://i.postimg.cc/V6r9bgg2/arya.webp" alt="">
+                    <h1>Arya Duhan</h1>
+                    <p>Tech Team</p>
+                </div>
+
+                <div class="photocol">
+                    <img src="https://i.postimg.cc/wMYNRp7s/lak.webp" alt="">
+                    <h1>Lakshay Garg</h1>
+                    <p>Tech Team</p>
+                </div>
+
+                <div class="photocol">
+                    <img src="https://i.postimg.cc/2jnhRVKd/IMG-20210506-WA0032.webp" alt="">
+                    <h1>Ekansh Kumar</h1>
+                    <p>Tech Team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="footer">
+        <div class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h1>COMSOC</h1>
+                    <h2>Ryan International School</h2>
+                    <p>Sep. 2021</p>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i>aryaduhan29@gmail.com</p>
+                    <p><i class="fas fa-phone"></i>+91 7015779132</p>
+                </div>
+
+                
+
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href=""><i class="fab fa-facebook-square"></i></i>Facebook</a>
+                    <a href=""><i class="fab fa-instagram"></i></i>Instagram</a>
+                    <a href=""><i class="fab fa-twitter-square"></i></i>Twitter</a>
+                </div>
+
+                <h1 class="credit">Created by <span>Arya</span></h1>
+            
+            </div>
+        </div>
+    </footer>
