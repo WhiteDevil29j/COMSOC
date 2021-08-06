@@ -7,15 +7,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.header{
-    min-height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url('https://i.postimg.cc/QxXvw5yT/3200184.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    position: relative;
-}
 
 nav{
     display: flex;
@@ -102,36 +93,6 @@ nav img:hover{
 }
 
 
-.textbox{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.textbox h1{
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bolder;
-    font-size: 80px;
-}
-
-.textbox span{
-    font-size: 20px;
-    font-weight: 300;
-    color: gold;
-}
-
-.textbox p{
-    color: gold;
-}
-
-.textbox img{
-    width: 700px;
-}
 
 nav .fa{
     display: none;
@@ -161,19 +122,6 @@ nav .fa{
 }
 
 @media(max-width: 700px){
-    .textbox{
-        font-size: 1em;
-        position: absolute;
-        top: 50%;
-    }
-    
-    .textbox h1{
-        font-size: 4.8em;
-    }
-
-    .textbox img{
-        width: 300px;
-    }
 
     .navlinks ul li{
         display: block;
@@ -228,16 +176,8 @@ hr{
     margin-bottom: 10px;
 }
 
-.section1{
-    background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://i.postimg.cc/zD4V1XWP/211-2113098-wallpaper-texture-gradient-spots-dark-texture-gradient-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 40px;
-}
-
 .section2{
-    background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg');
+    background:linear-gradient(rgba(4,9,30,0.6), rgba(4,9,30,0.6)) ,url('https://i.postimg.cc/bvwHGHgv/High-resolution-wallpaper-background-ID-77700327096.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -302,13 +242,13 @@ hr{
 }
 
 .popular .box-container .box p{
-  color: gold;
+  color: lightgreen;
   font-size: 20px;
   font-weight: 300;
 }
 
 .popular .box-container .box .price{
-  color: gold;
+  color: lightgreen;
   font-size: 2.5rem;
   padding-top: 1.5rem;
 }
@@ -349,7 +289,7 @@ hr{
 
 .footer .box-container .box h3{
   font-size: 20px;
-  color:lightgreen;
+  color:orange;
   padding: 10px 0;
   font-weight: normal;
 }
