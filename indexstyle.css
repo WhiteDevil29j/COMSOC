@@ -10,7 +10,7 @@ html{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url('https://i.postimg.cc/QxXvw5yT/3200184.jpg');
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url('https://i.postimg.cc/Lhd9vrD6/com.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -24,6 +24,47 @@ nav{
     align-items: center;
     background: linear-gradient(to right, #434343,#000000);
 }
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    cursor: pointer;
+    margin-top:30px ;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+.bn632-hover:hover {
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+  
+.bn632-hover:focus {
+    outline: none;
+}
+  
+.bn632-hover.bn23 {
+      background-image: linear-gradient(
+        to right,
+        #009245,
+        #fcee21,
+        #00a8c5,
+        #d9e021
+      );
+      box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+  }
 
 h{
     color: white;
@@ -111,6 +152,8 @@ nav img:hover{
     top: 58%;
     left: 50%;
     transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
 }
 
 .textbox h1{
@@ -162,17 +205,13 @@ nav .fa{
 
 @media(max-width: 700px){
     .textbox{
-        font-size: 1em;
+        font-size: 0.9em;
         position: absolute;
         top: 50%;
     }
     
     .textbox h1{
-        font-size: 4.8em;
-    }
-
-    .textbox img{
-        width: 300px;
+        font-size: 4.5em;
     }
 
     .navlinks ul li{
@@ -280,15 +319,17 @@ hr{
 
 .popular .box-container{
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  margin-left:200px ;
 }
 
 .popular .box-container .box{
-    background: linear-gradient(to right, #c33764, #1d2671);
+  background: linear-gradient(to right, #c33764, #1d2671);
   width: 300px;
-  padding: 0px;
+  padding: 20px;
   margin: 30px;
   border-radius: 20px;
   text-align: center;
@@ -323,6 +364,7 @@ hr{
 .popular .box-container .box:hover{
   transform: scale(1.02);
   transition: 0.4s;
+  cursor: pointer;
 }
 
 @media(max-width: 700px){
@@ -336,6 +378,14 @@ hr{
 
     .photo ul li{
         font-size: 28px;
+    }
+
+    .popular .box-container{
+        margin-left: 0px;
+    }
+    
+    .popular .box-container .box{
+        width: 250px;
     }
 }
 

@@ -1,0 +1,128 @@
+<html id="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="aboutstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Titillium+Web:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+        <link rel="shortcut icon" type="image/jpg" href="https://i.postimg.cc/FH2dfvfg/comsoc.png">
+    </head>
+
+<body>
+        <a href="#home">
+            <div class="top">
+                <i class="fa fa-chevron-up"></i>
+            </div>
+        </a>
+
+        <section class="header">
+            <nav>
+                <div class="logo"><a href="index.html"><h>COMSOC</h></a></div>
+                <i class="fa fa-eercast" onclick="showMenu()"></i>
+                <div class="navlinks" id="NavLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+<!------Javascript for Toggle Menu------->
+
+        <script>
+            var NavLinks = document.getElementById("NavLinks")
+            function showMenu(){
+                NavLinks.style.left = "0"
+            }
+
+            function hideMenu(){
+                NavLinks.style.left = "-200px"
+            }
+        </script>
+
+<section class="section1">
+    <div class="photo">
+       <h1>About the Event</h1>
+       <hr>
+       <p>These are the following events that will be taking place.</p>
+
+       <h2>Greetings from The Commerce Society, Ryan International School, Rohini! With blessings and good wishes, we announce and declare that the society opens applications for the next batch, academic-financial year 2021-22.</h2><h2>The Commerce Society, RIS Rohini, has conducted two editions of R’Impressario Fiesta, its flagship commerce event in the last two years. The Second Edition, which took place in September’20 was a mammoth success, where 750+ students participated from 61+ schools across India.</h2><h2> We invite the current batch of class 11th and 12th from Commerce to dive in, and make full use to apply and enhance financial, leadership, marketing, trading, entrepreneurial, quizzing, organising, and logistical skills and stand out, and take the Ryan banner even more higher.</h2><h2> The Charter of the society contains the information pertaining to the structure of the society and the description of the Top Management and the departments under it.</h2>
+    </div>
+</section>
+
+<section class="section2" id="abt">
+    <div class="photo">
+       <h1>About COMSOC</h1>
+       <hr>
+       <p>These are the following events that will be taking place.</p>
+
+       <h2>The Commerce Society of Ryan International School, also called the
+        “COMSOC”, was established in the school in the academic-financial year
+        2021-22, with the aim of providing experience and knowledge to young
+        commercians, aspiring leaders and managers for tomorrow. The need of the
+        situation was to build and train students for financial events, which are very
+        actively organized and conducted by prestigious colleges of University of
+        Delhi and other prominent institutions. These events give a teaser to these
+        young folks about how the trading and business world functions and at the
+        same time, boost their business awareness. Validating all these factors, a
+        specialized and professional body was set up in the School as COMSOC,
+        providing this opportunity to its future entrepreneurs and managers.</h2>
+        
+        <h2>The Management from the first day of assuming office started with the
+        functioning and training of all its members, building their forte, and
+        providing them a big chance of being a leader.</h2>
+        
+        <h2> The COMSOC- RIS Rohini has emerged as the standout group and participates in almost every college fest and win accolades, one of the only
+        schools to do so in entire Delhi-NCR region. The goal is to keep moving
+        forward and establish Society’s reputation amongst other colleges in Delhi
+        and circuit.</h2>
+
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <div class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h1>COMSOC</h1>
+                <h2>Ryan International School</h2>
+                <p>Sep. 2021</p>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i>aryaduhan29@gmail.com</p>
+                <p><i class="fas fa-phone"></i>+91 7015779132</p>
+            </div>
+
+            
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href=""><i class="fab fa-facebook-square"></i></i>Facebook</a>
+                <a href=""><i class="fab fa-instagram"></i></i>Instagram</a>
+                <a href=""><i class="fab fa-twitter-square"></i></i>Twitter</a>
+            </div>
+
+            <h1 class="credit">Created by <span>Arya</span></h1>
+        
+        </div>
+    </div>
+</footer>
+</body>
+</html>
