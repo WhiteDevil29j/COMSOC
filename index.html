@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
         <link rel="shortcut icon" type="image/jpg" href="https://i.postimg.cc/FH2dfvfg/comsoc.png">
     </head>
@@ -39,12 +40,26 @@
                 </div>
             </nav>
 
-            <div class="textbox">
+            <div class="textbox" data-aos="fade-right"
+                                 data-aos-duration="1000"
+                                 data-aos-easing="ease-in-out"
+                                 data-aos-mirror="true"
+                                 data-aos-once="true"
+                                 data-aos-anchor-placement="top-center" >
                 <h1>The Commerce Society</h1>
                 <p>Ryan International School</p>
                 <span>Sep. 2021</span>
                 <a href="https://docs.google.com/forms/d/14U26iiNO4JqteJjP4any7ZZ_mXOJWTyjlbjjmpSV__0/edit?usp=drivesdk" target="_blank"><button class="bn632-hover bn23">Register Now</button></a>
             </div>
+
+            <div class="image" data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true">
+                <img src="https://i.postimg.cc/FH2dfvfg/comsoc.png" alt="">
+            </div>
+
         </section>
 
 <!------Javascript for Toggle Menu------->
@@ -89,7 +104,12 @@
     </div>
 
     <section class="popular" id="popular">
-        <div class="box-container">
+        <div class="box-container" data-aos="zoom-in-right"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-bottom">
             <div class="box">
                 
                 <h3>Somaksh Khanna</h3>
@@ -138,6 +158,11 @@
             </div>
         </div>
 </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
         

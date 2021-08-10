@@ -13,7 +13,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&family=Poppins:wght@100;300;400;500&display=swap" rel="stylesheet">
     
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <link rel="shortcut icon" type="image/jpg" href="https://i.postimg.cc/FH2dfvfg/comsoc.png">
     </head>
 <body>
@@ -38,6 +39,16 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="textbox" data-aos="flip-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+        data-aos-anchor-placement="top-center">
+                <h1> Team</h1>
+                <p>Teamwork makes the Dream Work.</p>
+            </div>
     </section>
 
 <!------Javascript for Toggle Menu------->
@@ -64,7 +75,12 @@
         </div>
     
         <section class="popular" id="popular">
-            <div class="box-container">
+            <div class="box-container" data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom">
                 <div class="box" style="background: linear-gradient(to right, #d53369, #cbad6d);">
                     <h3>Saksham Vats</h3>
                     <p>Head</p>
@@ -119,5 +135,11 @@
                 </div>
             </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 </html>

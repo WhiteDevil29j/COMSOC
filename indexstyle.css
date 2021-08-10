@@ -17,6 +17,14 @@ html{
     position: relative;
 }
 
+.header .image img{
+    position: relative;
+    left: 73%;
+    top: 170px;
+    width: 25%;
+}
+
+
 nav{
     display: flex;
     padding: 0px;
@@ -149,8 +157,8 @@ nav img:hover{
     width: 90%;
     color: white;
     position: absolute;
-    top: 58%;
-    left: 50%;
+    top: 35%;
+    left: 5%;
     transform: translate(-50%,-50%);
     display: flex;
     flex-direction: column;
@@ -207,7 +215,7 @@ nav .fa{
     .textbox{
         font-size: 0.9em;
         position: absolute;
-        top: 50%;
+        top: 20%;
     }
     
     .textbox h1{
@@ -255,6 +263,36 @@ nav .fa{
     .top{
         left: 70%;
     }
+
+    .section1 .photo p{
+        font-size: 15px;
+    }
+
+    .section1 .photo ul li{
+        font-size: 20px;
+    }
+
+    .header .image{
+        display: none;
+    }
+}
+
+@media (max-width:991px){
+    .header .image img{
+        display: none;
+    }
+
+    .navlinks ul li a{
+        padding: 9px;
+        margin: 0;
+    }
+}
+
+@media (max-width:1024px){
+    .header .image img{
+        display: none;
+    }
+    
 }
 
 /*-------Photos------*/
@@ -323,7 +361,7 @@ hr{
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-left:200px ;
+  margin-left:180px ;
 }
 
 .popular .box-container .box{
@@ -381,7 +419,7 @@ hr{
     }
 
     .popular .box-container{
-        margin-left: 0px;
+        margin-left: 30px;
     }
     
     .popular .box-container .box{
